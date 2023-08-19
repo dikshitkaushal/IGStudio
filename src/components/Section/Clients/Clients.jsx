@@ -44,6 +44,7 @@ const Clients = () => {
         ref={swiperElRef}
         slides-per-view="3"
         space-between="65"
+        loop="true"
       >
         <swiper-slide>
           <Clientcard name="Jane Cooper" image={client1} />
@@ -63,7 +64,7 @@ const Clients = () => {
         <swiper-slide>
           <Clientcard name="Robert Fox" image={client3} />
         </swiper-slide>
-        <swiper-slide>
+        {/* <swiper-slide>
           <Clientcard name="Jane Cooper" image={client1} />
         </swiper-slide>
         <swiper-slide>
@@ -80,7 +81,7 @@ const Clients = () => {
         </swiper-slide>
         <swiper-slide>
           <Clientcard name="Robert Fox" image={client3} />
-        </swiper-slide>
+        </swiper-slide> */}
       </swiper-container>
     </div>
   );
