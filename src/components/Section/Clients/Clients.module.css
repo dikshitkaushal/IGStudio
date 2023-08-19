@@ -1,0 +1,16 @@
+.clienttext {
+  width: 20rem;
+  line-height: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.slidewrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonwrapper {
+  display: flex;
+  column-gap: 20px;
+}

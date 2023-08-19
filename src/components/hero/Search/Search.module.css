@@ -1,0 +1,41 @@
+.buttonIn {
+  width: 25rem;
+  position: relative;
+}
+
+.input {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 3rem;
+  padding: 1.5rem;
+  outline: none;
+  border-radius: 25px;
+  background-color: var(--lightBlack-color);
+  border: 1px solid var(--lightBlack-color);
+  color: var(--white-color);
+  padding-left: 3rem;
+}
+.button {
+  position: absolute;
+  top: 4px;
+  border-radius: 5px;
+  right: 0px;
+  z-index: 2;
+  height: 2.5rem;
+  width: 8rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+  transform: translateX(-4px);
+  border-radius: 25px;
+  color: var(--black-color);
+}
+
+.icon {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  fill: var(--grey-color);
+}

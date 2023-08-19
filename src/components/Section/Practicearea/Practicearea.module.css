@@ -1,0 +1,21 @@
+.practicewrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.gridimage {
+  height: 350px;
+  width: 100%;
+}
+
+.imagewrapper {
+  position: relative;
+}
+.imagetxt {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}

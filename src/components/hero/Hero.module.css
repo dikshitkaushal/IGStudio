@@ -1,0 +1,13 @@
+.herowrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 8rem;
+  width: 100%;
+  background-color: var(--black-color);
+}
+
+.herotext {
+  margin: 30px 0px;
+  width: 50%;
+}

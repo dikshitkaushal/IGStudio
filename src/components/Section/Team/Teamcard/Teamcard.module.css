@@ -1,0 +1,13 @@
+.cardwrapper {
+  width: 22rem;
+  padding: 1.5rem 1rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.cardwrapper:hover {
+  background-color: var(--primary-color);
+  color: #373737;
+}

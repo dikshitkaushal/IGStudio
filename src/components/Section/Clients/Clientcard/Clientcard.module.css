@@ -1,0 +1,10 @@
+.cardwrapper {
+  width: 22rem;
+  padding: 2rem 1rem;
+  border: 2px solid var(--lightgrey-color);
+  border-radius: 20px;
+}
+
+.cardwrapper:hover {
+  background-color: var(--lightgrey-color);
+}

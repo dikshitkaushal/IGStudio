@@ -1,0 +1,23 @@
+.button {
+  height: 2.5rem;
+  width: 8rem;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 25px;
+  color: var(--black-color);
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.cardwrapper {
+  width: 22rem;
+  padding: 2rem 1rem;
+  border: 2px solid var(--lightgrey-color);
+  border-radius: 20px;
+}
+
+.cardwrapper:hover {
+  background-color: var(--lightgrey-color);
+}

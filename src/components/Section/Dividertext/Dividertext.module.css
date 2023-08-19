@@ -1,0 +1,12 @@
+.vr {
+  width: 100px;
+  border-right: 2px solid var(--grey-color);
+  height: 150px;
+  margin-right: 100px;
+}
+
+.dividerwrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

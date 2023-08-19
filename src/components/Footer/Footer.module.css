@@ -1,0 +1,26 @@
+.footerwrapper {
+  padding: 8rem 8rem 4rem;
+  background-color: var(--black-color);
+}
+
+.menu {
+  display: flex;
+  column-gap: 3rem;
+  font-weight: 300px;
+}
+
+.iconswrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textwrapper {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.text {
+  font-size: 12px;
+}

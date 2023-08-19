@@ -1,0 +1,9 @@
+.textwrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.faqwrapper {
+  margin: 100px 0px 0px 0px;
+}
